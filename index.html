@@ -60,7 +60,7 @@
     }
 
     .title-bar {
-      width: 360px;
+      width: 720px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -131,7 +131,7 @@
     #game-canvas { display: block; }
 
     .status-bar {
-      width: 360px;
+      width: 720px;
       font-size: 7px;
       letter-spacing: 2px;
       color: #1a3a50;
@@ -337,7 +337,7 @@
       <div class="sc-corner br"></div>
       <div id="scanlines"></div>
       <div id="line-flash"></div>
-      <canvas id="game-canvas" width="360" height="720"></canvas>
+      <canvas id="game-canvas" width="720" height="720"></canvas>
     </div>
     <div class="status-bar">◈ SECTOR: ALPHA &nbsp;|&nbsp; GRID: 10×20 &nbsp;|&nbsp; NET: ONLINE</div>
   </div>
@@ -786,7 +786,7 @@ function drawParticles() {
 // ═══════════════════════════════════════════
 //  TETRIS GAME
 // ═══════════════════════════════════════════
-const COLS = 10, ROWS = 20, BLOCK = 36;
+const COLS = 20, ROWS = 20, BLOCK = 36;
 
 const COLORS = [
   null,
